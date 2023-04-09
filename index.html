@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picasso Painting</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+  <header>
+    <div class="main-block">
+        <h1>Registration</h1>
+        <form action="form_submit.html" method: "post">
+          <hr>
+          <div class="account-type">
+            <input type="radio" value="none" id="radioOne" name="account" checked/>
+            <label for="radioOne" class="radio">Personal</label>
+            <input type="radio" value="none" id="radioTwo" name="account" />
+            <label for="radioTwo" class="radio">Company</label>
+          </div>
+          <hr>
+          <div class="set">
+            <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+            <input class="form-input" type="text" name="name" id="name" placeholder="Email" required/>
+          </div>
+          <div class="set">
+            <label id="icon" for="name"><i class="fas fa-user"></i></label>
+            <input class="form-input" type="text" name="name" id="name" placeholder="Name" required/>
+          </div>
+          <div class="set">
+            <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+            <input class="form-input" type="password" name="name" id="name" placeholder="Password" required/>
+          </div>
+          <hr>
+          <div class="gender">
+            <input type="radio" value="none" id="male" name="gender" checked/>
+            <label for="male" class="radio">Male</label>
+            <input type="radio" value="none" id="female" name="gender" />
+            <label for="female" class="radio">Female</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+  </header>
+
+    <div id="back-wall"></div>
+    <div class="characters">
+      <div id="offwhite-character">
+        <div id="white-hat"></div>
+        <div id="black-mask">
+          <div class="eyes left"></div>
+          <div class="eyes right"></div>
+        </div>
+        <div id="gray-instrument">
+          <div class="black-dot"></div>
+          <div class="black-dot"></div>
+          <div class="black-dot"></div>
+          <div class="black-dot"></div>
+          <div class="black-dot"></div>
+        </div>
+        <div id="tan-table"></div>
+      </div>
+      <div id="black-character">
+        <div id="black-hat"></div>
+        <div id="gray-mask">
+          <div class="eyes left"></div>
+          <div class="eyes right"></div>
+        </div>
+        <div id="white-paper">
+          <i class="fas fa-music"></i>
+          <i class="fas fa-music"></i>
+          <i class="fas fa-music"></i>
+          <i class="fas fa-music"></i>
+        </div>
+      </div>
+      <div class="blue" id="blue-left"></div>
+      <div class="blue" id="blue-right"></div>
+      <div id="orange-character">
+        <div id="black-round-hat"></div>
+        <div id="eyes-div">
+          <div class="eyes left"></div>
+          <div class="eyes right"></div>
+        </div>
+        <div id="triangles">
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+        </div>
+        <div id="guitar">
+          <div class="guitar" id="guitar-left">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="guitar" id="guitar-right">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div id="guitar-neck"></div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
